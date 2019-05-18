@@ -1,69 +1,247 @@
 <!-- write your html here -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>mokups-may-14-master</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mockup-14-may</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i|Source+Sans+Pro:400,700i,900,900i" rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <header id="header">
-        <div>
-            <marquee>Special offer just Pakistan citizens Gets <mark>50% Discount</mark> of any course offered by Tech karo</marquee>
+
+    <marquee scrollamount=10 loop=1000 onmouseover=this.stop() onmouseout=this.start()> Special Offer just for Pakistani Citizens! <span class="disc"> Get 50% discount</span> offered by Tech Karo for futher Querries Call <i class="fas fa-phone"></i> : +92336-3862584 </marquee>
+
+    <header>
+        <div id="logo">
+            <img src="images/logo.png">
         </div>
 
-        <div class="navbar">
-            <nav>
 
-                <img class="logo" src="images\logo.png" alt="logo">
+        <nav id="menu">
+            <ul>
+                <li><a href="">Service</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
 
-                <ul>
-                    <li>Services</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                </ul>
-
-            </nav>
-        </div>
     </header>
-
-    <main>
-        <h1>Tech Karo, CIRCLE</h1>
-        <div>
-            <pre>
-                We are Tech karo students, and we work hard! We self-learn and NEVER
-                 give up!Join our team, because Tech is the future!</pre>
-        </div>
-        <button class="join-btn">JOIN NOW!</button>
-    </main>
     <section>
-        <h2>
-            Oue Services
-        </h2>
-        <!-- <div class="fig">
-            <figure> -->
-        <i class="fab fa-html5"></i>
-        <!-- <figcaption>HTML</figcaption>
-                <p>Lorem ipsum dolor, sit ammet consecteture edipiscing elit sed do iesomer insidedent ut lebore at dolor magna laiqua.Ut anim and minim venium quis nosrtrud exertisation.</p>
-            </figure>
-        </div>
-        <div class="fig">
-            <figure> -->
-        <i id="icon" class="fab fa-css3-alt"></i>
-        <!-- <figcaption>CSS</figcaption>
-                <p>Lorem ipsum dolor, sit ammet consecteture edipiscing elit sed do iesomer insidedent ut lebore at dolor magna laiqua.Ut anim and minim venium quis nosrtrud exertisation.</p>
-            </figure>
-        </div>
-        <div class="fig">
-            <figure> -->
-        <i id="icon" class="fab fa-js"></i>
 
-        <!-- <figcaption>CSS</figcaption>
-                <p>Lorem ipsum dolor, sit ammet consecteture edipiscing elit sed do iesomer insidedent ut lebore at dolor magna laiqua.Ut anim and minim venium quis nosrtrud exertisation.</p>
-            </figure>
-        </div> -->
+        <div id="main">
+
+            <div class="intro">
+
+                <h1> Tech Karo, Circle</h1>
+
+                <div class="techintro">
+                    <p>We are Tech Karo students and we work hard! We Self-<br> learn nad NEVER give up! Join our team because Tech <br> is the Future!</p>
+                </div>
+                <button class="join"> Join Now!</button>
+            </div>
     </section>
+
+    <section>
+
+
+        <div class="box-container">
+            <div class="box-description">
+                <h2>Our Services</h2>
+            </div>
+
+
+            <div class="service-container">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+
+                    <div class="service-description">
+                        <h4> HTML</h4>
+                    </div>
+                    <div class="article">
+
+                        <div class="article">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et corrupti deleniti? Optio, odit! Possimus eligendi quam aperiam. Consectetur sint ea amet quidem, suscipit velit tenetur dignissimos repudiandae necessitatibus
+                                eaque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="service-box ">
+                    <div class="service-icon">
+                        <i class="fab fa-css3"></i>
+                    </div>
+
+                    <div class="service-description">
+                        <h4> CSS</h4>
+                    </div>
+                    <div class="article">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et corrupti deleniti? Optio, odit! Possimus eligendi quam aperiam. Consectetur sint ea amet quidem, suscipit velit tenetur dignissimos repudiandae necessitatibus
+                            eaque.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fab fa-js"></i>
+
+                    </div>
+
+                    <div class="service-description">
+                        <h4> JS</h4>
+                    </div>
+                    <div class="article" <div class="article">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et corrupti deleniti? Optio, odit! Possimus eligendias quam aperiam. Consectetur sint ea amet quidem, suscipit velit tenetur dignissimos repudiandae necessitatibus
+                            eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <div id="service-portfolio">
+            <div class="portfolio-box">
+
+                <h1> Porfolio</h1>
+
+                <div class="portfolio-intro">
+                    <p>I have been Working Really Hard! Here are some of my Projects. </p> I Hope you will like it.
+                </div>
+            </div>
+
+
+            <div class="portfolios">
+
+                <div class="portfoliopics-container">
+
+                    <figure>
+                        <img src="images/projects/p-1.png">
+                        <figcaption>
+                            <a class="icon" href="#">
+                                <h3>GALLERY</h3>
+                                <span> <i class="far fa-eye"></i></span>
+                                <span><i class="fas fa-thumbs-up"></i></span>
+                                <span> <i class="fas fa-heart"></i></span>
+                            </a>
+                        </figcaption>
+                    </figure>
+
+
+                    <figure>
+                        <img src="images/projects/p-2.png">
+                        <figcaption>
+                            <a class="icon" href="#">
+                                <h3>MASTER</h3>
+                                <span> <i class="far fa-eye"></i></span>
+                                <span><i class="fas fa-thumbs-up"></i></span>
+                                <span> <i class="fas fa-heart"></i></span>
+                            </a>
+                        </figcaption>
+                    </figure>
+
+
+                    <figure>
+                        <img src="images/projects/p-3.png">
+                        <figcaption>
+                            <a class="icon" href="#">
+                                <h3>ONLINE SHOP</h3>
+                                <span> <i class="far fa-eye"></i></span>
+                                <span><i class="fas fa-thumbs-up"></i></span>
+                                <span> <i class="fas fa-heart"></i></span>
+                            </a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/projects/p-4.png">
+                        <figcaption>
+                            <a class="icon" href="#">
+                                <h3>BATA</h3>
+                                <span> <i class="far fa-eye"></i></span>
+                                <span><i class="fas fa-thumbs-up"></i></span>
+                                <span> <i class="fas fa-heart"></i></span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/projects/p-5.png">
+                        <figcaption>
+                            <a class="icon" href="#">
+                                <h3>TV+</h3>
+                                <span> <i class="far fa-eye"></i></span>
+                                <span><i class="fas fa-thumbs-up"></i></span>
+                                <span> <i class="fas fa-heart"></i></span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/projects/p-6.png">
+                        <figcaption>
+                            <a class="icon" href="#">
+                                <h3>SHOE OUTLET</h3>
+                                <span> <i class="far fa-eye"></i></span>
+                                <span><i class="fas fa-thumbs-up"></i></span>
+                                <span> <i class="fas fa-heart"></i></span>
+                            </a>
+                        </figcaption>
+                    </figure>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact-container">
+            <div class="contact-desc">
+                <h2> Contact Us</h2>
+            </div>
+
+            <div class="contact-services">
+
+                <div class="socials">
+
+                    <span> <i class="fab fa-twitter"></i></span>
+
+                    <span> <i class="fab fa-youtube"></i></span>
+
+                    <span> <i class="fab fa-facebook-square"></i></span>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        Made with <i class="fas fa-heart"></i> by Aniqa Mukhtar (Sweety)
+    </footer>
+
 
 </body>
 
